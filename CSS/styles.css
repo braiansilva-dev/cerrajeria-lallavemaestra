@@ -1,0 +1,117 @@
+/* ===== Colores de la marca ===== */
+:root {
+  --color-principal: #206C7C;
+  --color-secundario: #FFD700;  /* Dorado */
+  --color-texto: #333;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: var(--color-principal) !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-secundario) !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.logo {
+    height: 3rem;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    width: 100%;
+  }
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0; 
+  }
+}
+
+
+
+/* ===== Hero ===== */
+.hero {
+  height: 100vh; 
+  background-image: url('../IMG/heder1.jpg'); 
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8); 
+  z-index: 1;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2; 
+}
+
+
+#inicio h1 {
+  color: var(--color-secundario);
+}
+
+/* ===== Botones ===== */
+.btn-light {
+  background-color: #e6c200;
+  color: #000000;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: var(--color-principal);
+  color: #ffffff;
+}
+
+.btn-success {
+  background-color: var(--color-principal);
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #001f4d;
+}
+
+/* ===== Servicios (cards) ===== */
+.card {
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Nosotros ===== */
+#nosotros img {
+  max-width: 400px;  /* Ajusta el tamaño máximo */
+  width: 100%;       /* Hace que sea responsive */
+  height: auto;      /* Mantiene la proporción */
+}
+
+
+/* ===== Footer ===== */
+footer {
+  background-color: var(--color-principal);
+  color: white;
+}
