@@ -36,6 +36,12 @@
   }
 }
 
+.urgencias-movil {
+  position: absolute;
+  left: 63%;                /* lo posiciona a mitad horizontal */
+  transform: translate(-50%, -50%); /* centra exactamente en ambas direcciones */
+  white-space: nowrap;      /* evita que el texto se rompa en varias líneas */
+}
 
 
 /* ===== Hero ===== */
@@ -71,6 +77,11 @@ h1 {
   color: var(--color-secundario);
 }
 
+.direccion {
+  text-decoration: none;
+  color: var(--color-secundario);
+}
+
 /* ===== Botones ===== */
 .btn-light {
   background-color: #e6c200;
@@ -90,6 +101,16 @@ h1 {
 
 .btn-success:hover {
   background-color: #001f4d;
+}
+
+.btn-custom {
+  background-color: var(--color-principal);
+  color: #fff;
+  border: none; 
+}
+.btn-custom:hover {
+  background-color: var(--color-secundario);
+  color: #000;
 }
 
 /* ===== Servicios (cards) ===== */
