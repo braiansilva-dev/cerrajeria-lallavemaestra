@@ -166,8 +166,8 @@
   <div class="container">
     <div class="row align-items-center">
 
-      <!-- Texto -->
-      <div class="col-md-6 mb-3">
+      <!-- Columna de texto -->
+      <div class="col-md-6 mb-4 mb-md-0">
         <h2 class="fw-bold">Sobre Nosotros</h2>
         <p>
           Desde 2022, en <strong>La Llave Maestra</strong> nos dedicamos a ofrecer soluciones rápidas, confiables y profesionales en cerrajería. 
@@ -177,54 +177,49 @@
           Nuestro equipo está disponible las 24 horas para emergencias, cambios de cerraduras, duplicado de llaves y cualquier servicio de cerrajería que necesites. 
           Nos esforzamos en brindar confianza, eficiencia y calidad en cada trabajo que realizamos.
         </p>
-
-        <!-- Botón de acción -->
         <a href="https://wa.me/59895722220?text=Hola,%20necesito%20un%20cerrajero" 
            class="btn btn-custom btn-lg mt-3">
           Contáctanos ahora
         </a>
       </div>
 
-      <!-- Carrusel -->
-      <div class="col-md-6 carrusel-col">
-        <div id="nosotrosCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Columna del carrusel -->
+      <div class="col-md-6">
+        <div id="carouselNosotros" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="IMG/sobren.jpg" class="d-block w-100 rounded shadow" alt="Cerrajero trabajando">
+              <img src="IMG/sobren.jpg" class="d-block rounded shadow" alt="Imagen 1">
             </div>
             <div class="carousel-item">
-              <img src="IMG/heder2.jpg" class="d-block w-100 rounded shadow" alt="Trabajo de cerradura">
+              <img src="IMG/heder2.jpg" class="d-block rounded shadow" alt="Imagen 2">
             </div>
             <div class="carousel-item">
-              <img src="IMG/sobren.jpg" class="d-block w-100 rounded shadow" alt="Duplicado de llaves">
+              <img src="IMG/heder1.jpg" class="d-block rounded shadow" alt="Imagen 3">
             </div>
           </div>
+          
+          <!-- Indicadores -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselNosotros" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselNosotros" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselNosotros" data-bs-slide-to="2"></button>
+          </div>
 
-          <!-- Flechas -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#nosotrosCarousel" data-bs-slide="prev">
+          <!-- Controles -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselNosotros" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Anterior</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#nosotrosCarousel" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselNosotros" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Siguiente</span>
           </button>
-
-          <!-- Indicadores -->
-          <div class="carousel-indicators mt-2">
-            <button type="button" data-bs-target="#nosotrosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#nosotrosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#nosotrosCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
         </div>
       </div>
 
     </div>
   </div>
 </section>
-
-
-
 
 <!-- Ubicación -->
 
