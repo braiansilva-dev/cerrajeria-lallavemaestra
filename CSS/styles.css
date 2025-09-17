@@ -130,6 +130,37 @@ h1 {
   height: auto;      /* Mantiene la proporción */
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--color-principal);
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+
+#nosotrosCarousel {
+  height: 400px; 
+}
+
+#nosotrosCarousel .carousel-item img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+
+.col-md-6.carrusel-col {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+
+
 
 /* ===== Contacto ===== */
 
