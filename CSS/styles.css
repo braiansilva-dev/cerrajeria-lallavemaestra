@@ -67,7 +67,7 @@
 }
 
 
-#inicio h1 {
+h1 {
   color: var(--color-secundario);
 }
 
@@ -110,8 +110,29 @@
 }
 
 
+/* ===== Contacto ===== */
+
+#contacto {
+  background-color: #f8f9fa; /* gris claro */
+}
+
+#contacto h5 {
+  color: #b30000; /* rojo corporativo */
+}
+
+#contacto .btn-warning {
+  background-color: #ffcc00; 
+  border: none;
+}
+#contacto .btn-warning:hover {
+  background-color: #e6b800;
+}
+
+
+
+
 /* ===== Footer ===== */
-footer {
+
+.footerColor {
   background-color: var(--color-principal);
-  color: white;
 }
